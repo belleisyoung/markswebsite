@@ -1,0 +1,432 @@
+<body>
+
+    <div class="website-portfolio-1">
+      <!-- ... your existing HTML code ... -->
+      <div class="portraits">
+        <div class="his-sister">
+          <div class="blur-background"></div>
+          <img class="img-5790-1 zoom-in" src="sister.jpg" />
+        </div>
+      </div>
+      <div class="the-dad">
+        <div class="dad">
+          <div class="blur-background"></div>
+          <img class="img-9209-1" src="the dad.png" />
+        </div>
+      </div>
+      <div class="outdoor">
+        <div class="outdoor2">
+          <div class="blur-background"></div>
+          <img class="img-9932-1" src="susnset.png" />
+        </div>
+      </div>
+      <div class="glass">
+        <div class="glasses">
+          <div class="blur-background"></div>
+          <img class="img-9975-1" src="glasses.png" />
+        </div>
+      </div>
+      <div class="products">
+        <div class="prod">
+          <div class="blur-background"></div>
+          <div class="rectangle-32"></div>
+          <img class="img-0051-1" src="gucci.png" />
+          <div class="rectangle-3"></div>
+        </div>
+      </div>
+      <!-- ... more HTML code ... -->
+    </div>
+  </body>
+  
+  </div>
+  <div class="ellipse-3"></div>
+  <div class="ellipse-4"></div>
+  <div class="group-1">
+    <img class="logo" src="marks png logo.png" />
+    <div class="frame-2">
+      <div class="products2">Products</div>
+      <div class="pricing">Pricing</div>
+      <div class="about">About</div>
+      <div class="contact">Contact</div>
+    </div>
+    <div class="frame-3">
+      <div class="get-started">Get started</div>
+    </div>
+  </div>
+  <div class="button">
+    <div class="get-started">Get started</div>
+  </div>
+  <div class="take-a-scroll">TAKE A SCROLL</div>
+</div>
+</body>
+<style>
+
+body {
+    min-height: 1080px;
+    max-width: 1920px;
+    background: #2b1509;
+
+}
+    .website-portfolio-1,
+.website-portfolio-1 * {
+  box-sizing: border-box;
+}
+.website-portfolio-1 {
+  background: #2b1509;
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+  overflow: hidden;
+}
+.portraits {
+  padding: 26.99px 220px 26.99px 220px;
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 458px;
+  margin-left: 160px;
+  top: 151px;
+  
+}
+.his-sister {
+  flex-shrink: 0;
+  width: 483.04px;
+  height: 546.02px;
+  position: static;
+}
+.img-5790-1 zoom-in{
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: inherit;
+    background-size: cover;
+    transform-origin: center;
+    transition: transform .4s ease-in-out;
+  }
+}
+
+.img-5790-1 zoom-in {
+  &:focus,
+  &:hover {
+    &::after {
+      transform: scale(1.05);
+    }
+  }
+}
+
+.zoom-out {
+  &::after {
+    transform: scale(1.05);
+  }
+  
+  &:focus,
+  &:hover {
+    &::after {
+      transform: scale(1);
+    }
+  }
+}
+
+
+.zoom-in {
+  &:focus,
+  &:hover {
+    &::after {
+      transform: scale(1.05);
+    }
+  }
+}
+.rectangle-1 {
+  background: #d9d9d9;
+  width: 483.04px;
+  height: 546.02px;
+  position: absolute;
+  left: 43.59px;
+  top: 26.99px;
+}
+.img-5790-1 {
+  width: 720px;
+  height: 546.02px;
+  position: absolute;
+  left: -120px;
+  top: 26.99px;
+}
+.img-5790-1:hover {
+  filter: blur(10px); /* Apply a blur effect */
+  position: absolute; /* Ensure stacking order */
+  z-index: 1; /* Bring the image to the front */
+  background: rgba(178, 122, 71, 0.5); /* Light brown color with transparency */
+}
+.rectangle-2 {
+  background: rgba(26, 12, 4, 0.6);
+  width: 800px;
+  height: 546.02px;
+  position: absolute;
+  left: 43.59px;
+  top: 26.99px;
+  
+}
+.the-dad {
+ 
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  margin-left: 1260px;
+  top: 151px;
+}
+.dad {
+  flex-shrink: 0;
+  width: -120px;
+  height: 546.02px;
+  position: absolute;
+}
+.rectangle-4 {
+  background: #d9d9d9;
+  width: 483.04px;
+  height: 546.02px;
+  position: absolute;
+  left: 43.59px;
+  top: 26.99px;
+}
+.img-9209-1 {
+  width: 570px;
+  height: 818.93px;
+  position: absolute;
+  left: -12px;
+  top: 26.99px;
+}
+.rectangle-3 {
+  background: rgba(26, 12, 4, 0.6);
+  width:500px;
+  height: 546.02px;
+  position: absolute;
+  left: 43.59px;
+  top: 26.99px;
+}
+.outdoor {
+  padding: 26.99px 43.59px 26.99px 43.59px;
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: -90px;
+  top: 151px;
+}
+.outdoor2 {
+  flex-shrink: 0;
+  width: 483.04px;
+  height: 546.02px;
+  position: static;
+}
+.rectangle-22 {
+  background: #d9d9d9;
+  width: 483.04px;
+  height: 546.02px;
+  position: absolute;
+  left: 43.59px;
+  top: 26.99px;
+}
+.img-9932-1 {
+  width: 560px;
+  height: 818.93px;
+  position: absolute;
+  left: -0.4px;
+  top: -43.39px;
+}
+.glass {
+  padding: 26.99px 43.59px 26.99px 43.59px;
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  top: 151px;
+  margin-left: 1800px;
+}
+.glasses {
+  flex-shrink: 0;
+  width: 483.04px;
+  height: 546.02px;
+  position: static;
+}
+.rectangle-5 {
+  background: #d9d9d9;
+  width: 483.04px;
+  height: 546.02px;
+  position: absolute;
+  left: 43.59px;
+  top: 26.99px;
+}
+.img-9975-1 {
+  width: 818.93px;
+  height: 600px;
+  position: absolute;
+  left: 43.59px;
+  top: 26.99px;
+}
+.products {
+  padding: 26.99px 43.59px 26.99px 43.59px;
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: -565px;
+  top: 151px;
+}
+.prod {
+  flex-shrink: 0;
+  width: 483.04px;
+  height: 546.02px;
+  position: static;
+}
+.rectangle-32 {
+  background: #d9d9d9;
+  width: 483.04px;
+  height: 546.02px;
+  position: absolute;
+  left: 43.59px;
+  top: 26.99px;
+}
+.img-0051-1 {
+  width: 483.04px;
+  height: 540.42px;
+  position: absolute;
+  left: 43.59px;
+  top: 26.99px;
+}
+.ellipse-3 {
+  background: #2b1509;
+  border-radius: 50%;
+  width: 4736px;
+  height: 768px;
+  position: absolute;
+  left: -1418px;
+  top: -565px;
+}
+.ellipse-4 {
+  background: #2b1509;
+  border-radius: 50%;
+  width: 4736px;
+  height: 768px;
+  position: absolute;
+  left: -1400px;
+  top: 720px;
+}
+.group-1 {
+  position: absolute;
+  margin-left: 92px;
+  inset: 0;
+}
+.logo {
+  width: 212.06px;
+  height: 150px;
+  position: absolute;
+  left: 17px;
+  top: 0px;
+}
+.frame-2 {
+  padding: 13px 118px 13px 118px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 530px;
+  top: 51px;
+}
+/* Existing CSS styles... */
+
+/* Add a class for the blur background */
+.blur-background {
+  background: rgba(187, 163, 150, 0.6); /* You can adjust the background color and opacity */
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  filter: blur(20px); /* Adjust the blur radius as needed */
+  z-index: -1; /* Ensure the background is behind the image */
+}
+
+/* Existing CSS styles... */
+
+.products2 {
+  color: #ffffff;
+  text-align: center;
+  font: 600 18px "Montserrat", sans-serif;
+  position: relative;
+}
+.pricing {
+  color: #ffffff;
+  text-align: center;
+  font: 600 18px "Montserrat", sans-serif;
+  position: relative;
+}
+.about {
+  color: #ffffff;
+  text-align: center;
+  font: 600 18px "Montserrat", sans-serif;
+  position: relative;
+}
+.contact {
+  color: #ffffff;
+  text-align: center;
+  font: 600 18px "Montserrat", sans-serif;
+  position: relative;
+}
+.frame-3 {
+  background: #000000;
+  border-radius: 5px;
+  padding: 14px 16px 14px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 1480px;
+  top: 51px;
+}
+.get-started {
+  color: #ffffff;
+  text-align: center;
+  font: 600 18px "Montserrat", sans-serif;
+  position: relative;
+}
+.button {
+  background: #daa048;
+  border-radius: 5px;
+  padding: 14px 16px 14px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 870px;
+  top: 580px;
+}
+.take-a-scroll {
+  color: #ffffff;
+  text-align: center;
+  font: 800 95px "Montserrat", sans-serif;
+  position: absolute;
+  left: 560px;
+  top: 393px;
+}
+
+</style>
